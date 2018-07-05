@@ -30,3 +30,9 @@ Good luck!
 If you finish early and are up for a challenge, try adding delete functionality.
 This should be in the form of a button within each TODO that removes that TODO
 when clicked. 
+
+## Sometips (Not like you need it)
+- The classNames are for formatting (see css file)
+- when you create, check, remove a TODO item, you need to change the item count and unchecked item count on the top (consider scope and how do you access the data)
+- the item count is created as 'span' html item. The count, '0' for example, is a text(contentText acutally), so you may need some method to deal with it
+- Chrome developer tools may help a lot!
